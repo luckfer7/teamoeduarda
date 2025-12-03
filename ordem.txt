@@ -1,0 +1,10 @@
+Saber onde em qual parte do projeto ficará a pasta com as fotos.
+
+A ideia é parecer uma landing page, mas com mensagens fofas.
+
+Até o momento tem 4 seções.
+
+Na primeira seção, colocar apenas uma foto.
+- a ideia é ter uma imagem de  fundo e um texto por cima em movimento. (centralizar mais o texto e escurecer um pouco a imagem de fundo).
+Na segunda seção, colocar em forma de filme.
+Na terceira e quarta ainda não sei.
