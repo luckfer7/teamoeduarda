@@ -1,19 +1,3 @@
-// import Image from "next/image";
-// import img from "@/public/primeiraimagem.jpeg";
-
-// export default function SegundaSecao() {
-//     return (
-//         <section className="w-full bg-black py-20 overflow-hidden" >
-//             <div className="flex gap-4 animate-slide" >
-//                 <Image className="h-48 w-auto rounded-lg"  src={img} alt="/" width={200} height={200}/>
-//                 <Image className="h-48 w-auto rounded-lg" src={img} alt="/" width={200} height={200}/>
-//                 <Image className="h-48 w-auto rounded-lg" src={img} alt="/" width={200} height={200}/>
-//                 <Image className="h-48 w-auto rounded-lg" src={img} alt="/" width={200} height={200}/>
-//                 <Image className="h-48 w-auto rounded-lg" src={img} alt="/" width={200} height={200}/>
-//             </div>
-//         </section>
-//     )
-// }
 
 import Image from "next/image";
 import img1 from "@/public/primeiraimagem.jpeg";
@@ -27,7 +11,7 @@ export default function SegundaSecao() {
   const loop = [...imagens, ...imagens];
 
   return (
-    <section className="w-full bg-black py-12 overflow-hidden">
+    <section className="w-full h-screen bg-black py-12 overflow-hidden">
       <div className="relative">
         {/* track: largura infinita (conteúdo em linha) */}
         <div className="flex items-center gap-4 animate-slide">
