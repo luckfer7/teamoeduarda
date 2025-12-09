@@ -1,6 +1,6 @@
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cormorant_Garamond, Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import AOSWrapper from "./AOSWrapper";
 
@@ -14,6 +14,18 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair-display",
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+});
+
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant-garamond",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${playfair.variable} ${cormorant.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         <AOSWrapper />

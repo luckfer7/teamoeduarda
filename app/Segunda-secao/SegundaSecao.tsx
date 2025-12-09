@@ -32,8 +32,8 @@ export default function SegundaSecao() {
       </div>
 
       <div className="relative z-10 qtext-center p-12" data-aos="fade-up" data-aos-duration="2000">
-                <h1 className="text-white font-bold text-5xl md:text-6xl lg:text-7xl drop-shadow-xl flex items-center justify-center gap-3" >Nunca é tarde para se auto conhecer.</h1>
-                <h3 className=" text-white mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-lg " >Saiba que você está fazendo parte desse processo.</h3>
+                <h1 className="text-white font-display font-bold text-5xl md:text-6xl lg:text-7xl drop-shadow-xl flex items-center justify-center gap-3" >Nunca é tarde para se auto conhecer.</h1>
+                <h3 className=" text-white font-cormorant mt-4 text-4xl md:text-xl max-w-2xl mx-auto drop-shadow-lg " >Saiba que você está fazendo parte desse processo.</h3>
             </div>
     </section>
   );

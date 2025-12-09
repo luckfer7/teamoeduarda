@@ -10,11 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-playfair-display);
+  --font-cormorant: var(--font-cormorant-garamond);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #4a1f1f;
+    --background: hwb(0 0% 100%);
     --foreground: #ededed;
   }
 }
