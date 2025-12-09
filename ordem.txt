@@ -9,3 +9,9 @@ Na primeira seção, colocar apenas uma foto.
 
 Na segunda seção, colocar em forma de filme.
 Na terceira e quarta ainda não sei.
+
+
+FALTA:
+
+    - BRILHO NOS TEXTOS SE EU CONSEGUIR
+    - ALGUM EFEITO NAS IMAGENS TAMBÉM

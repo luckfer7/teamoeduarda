@@ -2,13 +2,14 @@ import Image from "next/image";
 import img from "@/public/primeiraimagem.jpeg";
 export default function TerceiraSecao() {
     return (
-        <section className="h-screen p-10 flex flex-col justify-center gap-35" >
+        <section className="h-screen p-10 flex flex-col justify-center gap-20" >
             <div className=" grid grid-cols-2 gap-9 border-6 border-[#4e2929] " >
                 {/* <Image src={img} alt="img" width={350}  className=" rounded-[100px] border-2 border-solid border-black" /> */}
-                <img src={"/primeiraimagem.jpeg"} alt="img"  className="  " />
-                <img src={"/primeiraimagem.jpeg"} alt="img"  className="  " />
-                <img src={"/primeiraimagem.jpeg"} alt="img"  className="  " />
-                <img src={"/primeiraimagem.jpeg"} alt="img"  className="  " />
+                <img src={"/favminha4.jpeg"} alt="img"  className="  " />
+                <img src={"/favdela2.jpeg"} alt="img"  className="  " />
+                <img src={"/favdela3.jpeg"} alt="img"  className="  " />
+                <img src={"/favdela1.jpeg"} alt="img"  className=" " />
+                
             </div>
 
             <div className="flex flex-col justify-center " >
