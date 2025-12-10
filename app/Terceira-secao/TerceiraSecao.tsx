@@ -1,5 +1,4 @@
 import Image from "next/image";
-import img from "@/public/primeiraimagem.jpeg";
 export default function TerceiraSecao() {
     return (
         <section className="min-h-screen p-10 flex flex-col justify-center gap-20" >
