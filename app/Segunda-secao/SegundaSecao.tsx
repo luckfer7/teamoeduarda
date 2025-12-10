@@ -12,8 +12,6 @@ import img9 from "@/public/nonaimagem.jpeg";
 import img10 from "@/public/decimaimagem.jpeg";
 import img11 from "@/public/decimaprimeiraimagem.jpeg";
 import img12 from "@/public/decimasegundaimagem.jpeg";
-//import img2 from "@/public/segunda.jpeg"; // se tiver outras, coloque
-// você pode repetir o mesmo img1 várias vezes se só tiver uma
 
 const imagens = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]; // coloque quantas quiser / ou troque por img2, img3...
 
@@ -43,7 +41,7 @@ export default function SegundaSecao() {
       </div>
 
       <div className="relative z-10 qtext-center p-12" data-aos="fade-up" data-aos-duration="2000">
-                <h1 className="text-white font-display font-bold text-5xl md:text-6xl lg:text-7xl drop-shadow-xl flex items-center justify-center gap-3" >Nunca é tarde para se auto conhecer.</h1>
+                <h1 className="text-white glow-soft font-display font-bold text-5xl md:text-6xl lg:text-7xl drop-shadow-xl flex items-center justify-center gap-3" >Nunca é tarde para se auto conhecer.</h1>
                 <h3 className=" text-white font-cormorant mt-4 text-4xl md:text-xl max-w-2xl mx-auto drop-shadow-lg " >Saiba que você está fazendo parte desse processo.</h3>
             </div>
     </section>
