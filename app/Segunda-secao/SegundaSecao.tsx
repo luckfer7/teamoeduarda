@@ -12,10 +12,9 @@ import img10 from "@/public/decimaimagem.jpeg";
 import img11 from "@/public/decimaprimeiraimagem.jpeg";
 import img12 from "@/public/decimasegundaimagem.jpeg";
 
-const imagens = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]; // coloque quantas quiser / ou troque por img2, img3...
+const imagens = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]; 
 
 export default function SegundaSecao() {
-  // duplicamos o array para fazer o loop contínuo
 
   return (
     <section className="w-full h-screen bg-black py-12 overflow-hidden">
