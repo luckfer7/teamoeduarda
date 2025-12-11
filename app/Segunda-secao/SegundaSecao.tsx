@@ -17,10 +17,10 @@ const imagens = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, im
 export default function SegundaSecao() {
 
   return (
-    <section className="w-full h-screen bg-black py-12 overflow-hidden">
-        <div className=" w-full overflow-x-scroll scroll-touch flex items-center gap-14 px-4 no-scrollbar">
+    <section className="w-full min-h-screen bg-black py-12 overflow-hidden">
+        <div className=" w-full overflow-x-auto overscroll-x-contain scroll-touch flex items-center gap-14 px-4 no-scrollbar">
           {imagens.map((src, idx) => (
-            <div key={idx} className="scroll-item flex-shrink-0 rounded-lg overflow-hidden img-glow bg-[#b5b0b0] pb-18 p-9 " style={{ width: 260 }} // largura fixa por item (ajuste como quiser)
+            <div key={idx} className="scroll-item flex-shrink-0 rounded-lg overflow-hidden img-glow bg-[#b5b0b0] " style={{ width: 260 }} // largura fixa por item (ajuste como quiser)
 >
               <Image
                 src={src}
